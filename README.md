@@ -13,7 +13,7 @@ This app is typically a combination of multiple-choice questions and interactive
  
 Index page consists of Start page of the quiz with the start button, when the start button is clicked it opens the next page which has questions, and shows feedback of the answer whether the user chooses correct or wrong answer.
 
-![start page] (startpage.png)
+![alt text] (startpage.png)
 
 This app also contains Timer, when the useer clicks start button then the timer starts at 60sec and reduces per one sec and whenever user chooses wrong answer, then the timer would be reduced to 10 sec.
 There is a ViewHighscores page which shows the scores of all the users, which are stored in local storage.
