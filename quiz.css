@@ -1,1 +1,63 @@
+/* Entire body style */
+html,
+body {
+  background: #6cf;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
+/* start page style */
+#startpage {
+  text-align: center;
+  height: 400px;
+  width: 500px;
+  border: 1px solid #08038c;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  box-shadow: 0 0 8px 3px #fff;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  background-color: teal;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+p {
+  color: whitesmoke;
+  font-size: 20px;
+}
+#start-btn {
+  background-color: purple;
+  color: white;
+  width: 200px;
+  font-size: 20px;
+}
+/* hover color on anchor tag */ 
+a:hover {
+  color: blue;
+}
+#start-btn:hover {
+  background: violet;
+}
+#score-list {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+hr {
+  height: 2px;
+
+  background-color: purple;
+}
+/* scoretitle id style */
+#scoreTitle {
+  padding-left: 1rem;
+}
+/* color of anchor tag heading h2 and span */
+a,
+span {
+  color: teal;
+}
