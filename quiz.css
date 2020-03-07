@@ -35,7 +35,7 @@ p {
   width: 200px;
   font-size: 20px;
 }
-/* hover color on anchor tag */ 
+/* hover color on anchor tag */
 a:hover {
   color: blue;
 }

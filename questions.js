@@ -2,7 +2,7 @@ var questions = [
   {
     title: "How do you add comment in js",
 
-    choices: ["//", "<!--  -->", "/*","//*"],
+    choices: ["//", "<!--  -->", "/*", "//*"],
 
     answer: "//"
   },
@@ -50,5 +50,13 @@ var questions = [
     ],
 
     answer: "Cascading Style Sheets"
+  },
+
+  {
+    title: "Javascript and Java are same?",
+
+    choices: ["true", "false", "undefined", "none of the above"],
+
+    answer: "true"
   }
 ];

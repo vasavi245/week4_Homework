@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Highscore</title>
-    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="quiz.css" />
     <link
-
       rel="stylesheet"
-
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-
-      crossorigin="anonymous"/>
-
-</head>
-<body>
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: #6cf">
     <div class="header">
-        <a href="highscore.html">View High Scores</a>
+      <a href="highscore.html">View High Scores</a>
     </div>
-    <div class="container mt-5">
+    <form>
+      <div class="container mt-5">
         <div class="row justify-content-center mt-5 pt-3 pb-3">
           <div class="col-10 col-lg-8">
-            <h1 id="scoresTitle">High Scores</h1>
+            <h3>High score</h3>
+            <input type="textbox" name="text" id="scoresTitle" />
             <hr />
-  
+
             <ol id="score-list" class="mb-4"></ol>
-  
+
             <button type="button" class="btn btn-info btn-sm restartBtn">
               Restart
             </button>
-  
+
             <button type="button" class="btn btn-info btn-sm clearBtn">
               Clear Scores
             </button>
           </div>
         </div>
       </div>
+    </form>
 
-      <script
+    <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
- 
-    <script src="highscore.js"></script>
 
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="highscore.js"></script>
+  </body>
 </html>
