@@ -40,4 +40,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ### Tests
 Deployed Application: https://vasavi245.github.io/week4_Homework/
-https://vasavi245.github.io/week4_codequiz/
+* https://vasavi245.github.io/week4_codequiz/
